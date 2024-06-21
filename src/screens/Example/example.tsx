@@ -26,7 +26,7 @@ export const Example: React.FC = () => {
 				<p>{localValue}</p>
 			</div>
 			<div style={{ display: 'flex', flexDirection: 'row' }}>
-				<p>Value in redux-store: </p>
+				<p>Value in zustand store: </p>
 				<Spacer width="5px" />
 				<p>{storeValue}</p>
 			</div>
